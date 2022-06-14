@@ -52,7 +52,7 @@
             <?php
                 if ($value['status_kamar']=="0") { ?>
                   <div class="card-body status sold">
-                <div style="color: white;"> Gedung Avaliable</div>
+                <div style="color: white;"> Gedung Available</div>
                 </div>
                 <?php
                 }
