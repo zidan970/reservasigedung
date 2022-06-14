@@ -69,7 +69,7 @@
                   <h5><p class="price">Harga: <?php echo rupiah($value['harga_kamar']);?></p></h5>
                    <hr style="margin-top: 1; margin-bottom: 1;">
                   <div class="listing-detail"><?php echo $value['nama_kelas_kamar'];?>   </div>
-                  <a class="btn btn-primary" href="<?php echo base_url();?>welcome/kamardetail/<?php echo $value['id_kamar'];?>">selengkapnya</a>
+                  <a class="btn btn-primary" href="<?php echo base_url();?>welcome/gedungdetail/<?php echo $value['id_kamar'];?>">selengkapnya</a>
 
         </div>
 
